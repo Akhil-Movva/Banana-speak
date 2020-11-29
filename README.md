@@ -1,2 +1,2 @@
 # Minion-speak
- An application that can translate sentences in english to Banana language.
+ An application that can translate sentences in English to Banana language.
