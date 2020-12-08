@@ -1,37 +1,65 @@
+:root {
+    --yellow: #F4DD4B;
+    --blue: #115695;
+
+
+}
+
+body {
+    margin: 0px;
+}
+
 #heading {
-    font-size: 2rem;
+    font-size: 4rem;
+    padding: 7.4rem;
+    background-color: var(--yellow);
+    border: 0px;
     text-align: center;
-    padding: 1rem;
+}
+
+#main {
+    background-color: var(--blue);
+    padding: 5px;
 }
 
 #btn {
 
     display: block;
     margin: 1rem auto;
+    background-color: var(--blue);
+    border: 2px solid black;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
 
 }
 
-#sentence{
+#sentence {
     width: 40%;
     margin: 0 auto;
     font-weight: bold;
-    
+
 }
 
 #text-input {
     display: block;
-    margin: 0 auto;
-    }
- #text-output{
-     margin: 1rem auto;
- }   
+    margin: 1rem auto 0px;
+    background-color: var(--blue);
+
+}
+
+#text-output {
+    margin: 1rem auto;
+    overflow: auto;
+}
 
 
-.input{
-    
-    border: 1px solid black;
+.text {
+
+    border: 2px solid black;
     width: 40%;
     height: 10vh;
     padding: 1rem;
-    
+    font-size: 1.5rem;
+
 }
