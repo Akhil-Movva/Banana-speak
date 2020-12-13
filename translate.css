@@ -11,7 +11,7 @@ body {
 
 #heading {
     font-size: 4rem;
-    padding: 7.4rem;
+    padding: 7.5rem;
     background-color: var(--yellow);
     border: 0px;
     text-align: center;
@@ -19,7 +19,8 @@ body {
 
 #main {
     background-color: var(--blue);
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 14px;
 }
 
 #btn {
@@ -50,7 +51,7 @@ body {
 }
 
 #text-output {
-    margin: 1rem auto;
+    margin: 0 auto;
     overflow: auto;
 }
 
