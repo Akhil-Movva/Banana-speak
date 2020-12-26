@@ -11,7 +11,7 @@ body {
 
 #heading {
     font-size: 4rem;
-    padding: 7.5rem;
+    padding: 9rem;
     background-color: var(--yellow);
     border: 0px;
     text-align: center;
@@ -21,6 +21,7 @@ body {
     background-color: var(--blue);
     padding-top: 5px;
     padding-bottom: 14px;
+    height: 340px;
 }
 
 #btn {
